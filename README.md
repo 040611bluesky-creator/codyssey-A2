@@ -1,4 +1,4 @@
-# 국내 여행 추천 CLI
+`# 국내 여행 추천 CLI
 
 날짜를 넣으면 LLM(Gemini)과 지도/장소 API(카카오 로컬)를 연동해 국내 여행지를 추천하고, 맛집과 1일 일정이 담긴 마크다운 리포트를 만드는 프로그램입니다.
 
@@ -16,7 +16,7 @@ python main.py --date "YYYY-MM-DD"
 ```bash
 python main.py --date "2026-09-01"
 ```
-
+`
 ## API 키 설정
 
 1. 프로젝트 루트의 `.env.example`을 복사해 `.env`를 만듭니다.
